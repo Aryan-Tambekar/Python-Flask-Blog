@@ -1,0 +1,19 @@
+{
+  "params":
+  {
+    "local_server":"True",
+    "local_uri": "mysql://root:@localhost/codingthunder",
+    "prod_uri": "mysql://root:@localhost/codingthunder",
+    "fb_url": "https://facebook.com/codingthunder",
+    "tw_url": "https://twitter.com/codingthunder",
+    "gh_url": "https://github.com/codingthunder",
+    "gmail-user": "aryantambekar06@gmail.com" ,
+    "gmail-pass": "9822973725",
+    "no_of_posts": 5,
+    "blog_name": "Coding Thunder",
+    "login_image": "login.svg",
+    "admin_user": "Aryan",
+    "admin_password": "abcdefgh"
+  }
+
+}
