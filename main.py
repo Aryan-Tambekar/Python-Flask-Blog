@@ -18,10 +18,7 @@ app.secret_key = 'super-secret-key'
 csrf = CSRFProtect(app)
 
 # Database configuration
-if local_server:
-    app.config["SQLALCHEMY_DATABASE_URI"] = params['local_uri']
-else:
-    app.config["SQLALCHEMY_DATABASE_URI"] = params['prod_uri']
+app.config["SQLALCHEMY_DATABASE_URI"] = params['prod_uri']
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)  # New: Initialize Flask-Migrate
