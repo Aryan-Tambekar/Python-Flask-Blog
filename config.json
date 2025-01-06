@@ -3,7 +3,7 @@
   {
     "local_server":"True",
     "local_uri": "mysql://root:@localhost/codingthunder",
-    "prod_uri": "mysql://root:@localhost/codingthunder",
+    "prod_uri": "mysql://admin:dJ0iNXWrYcHJEsNGw4WN@my-mysql-instance.cdgkuk24ujy3.eu-north-1.rds.amazonaws.com:3306/mydatabase",
     "fb_url": "https://facebook.com/codingthunder",
     "tw_url": "https://twitter.com/codingthunder",
     "gh_url": "https://github.com/codingthunder",
