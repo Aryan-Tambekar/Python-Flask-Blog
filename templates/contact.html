@@ -29,6 +29,7 @@
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!-->
                             <form id="contactForm" action="/contact" method="post" data-sb-form-api-token="API_TOKEN">
+                                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                                 <div class="form-floating">
                                     <input class="form-control" id="name" name='name' type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                     <label for="name">Name</label>
